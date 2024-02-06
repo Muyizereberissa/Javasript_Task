@@ -9,6 +9,9 @@ const color = ['red','green','blue','yellow','orange']
 result = colors.copyWithin(0,1,3)
 console.log(result)
 
+const colour = ['red','green','blue','yellow','orange']
+const result = colour.join(",")
+
 // Apply the find() method to find the first element in the colors array that starts with the letter 'b'.
 const colors1 = ['red','green','blue','yellow','orange']
 result = colors.find()
